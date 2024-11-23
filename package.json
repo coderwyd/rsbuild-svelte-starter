@@ -21,7 +21,7 @@
     "@unocss/postcss": "^0.64.1",
     "eslint": "^9.15.0",
     "eslint-plugin-svelte": "^2.46.0",
-    "prettier-plugin-svelte": "^3.2.8",
+    "prettier-plugin-svelte": "^3.3.2",
     "typescript": "^5.6.3",
     "unocss": "^0.64.1"
   }
