@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       svelte:
-        specifier: ^5.2.7
-        version: 5.2.7
+        specifier: ^5.2.11
+        version: 5.2.11
     devDependencies:
       '@coderwyd/eslint-config':
         specifier: ^3.1.2
-        version: 3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7))(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)(typescript@5.7.2)
+        version: 3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11))(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)
       '@rsbuild/core':
         specifier: ^1.1.6
         version: 1.1.6
       '@rsbuild/plugin-svelte':
         specifier: ^1.0.5
-        version: 1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.7)(typescript@5.7.2)
+        version: 1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)
       '@unocss/postcss':
         specifier: ^0.64.1
         version: 0.64.1(postcss@8.4.47)
@@ -29,10 +29,10 @@ importers:
         version: 9.15.0(jiti@1.21.6)
       eslint-plugin-svelte:
         specifier: ^2.46.0
-        version: 2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)
+        version: 2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)
       prettier-plugin-svelte:
         specifier: ^3.3.2
-        version: 3.3.2(prettier@3.3.3)(svelte@5.2.7)
+        version: 3.3.2(prettier@3.3.3)(svelte@5.2.11)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -664,11 +664,44 @@ packages:
     cpu: [x64]
     os: [darwin]
 
+  '@rspack/binding-linux-arm64-gnu@1.1.4':
+    resolution: {integrity: sha512-QVRFV6+z1DopeGn8rLRbBNrWXuBvp7J19lTtvx9F5mItzTiBVHmNqFt31namm59xkhHJ3leng7l2F39qcOMOIA==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rspack/binding-linux-arm64-musl@1.1.4':
+    resolution: {integrity: sha512-UCateQWfEpEyFOC/tkuicXpIm81s5DavcwKjX3wwh1JB/KO6UxGHK8F75BV4K3Coo/UEiNCvL8xrB7eDjMDwYg==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
   '@rspack/binding-linux-x64-gnu@1.1.4':
     resolution: {integrity: sha512-Nz5Bt1PDxebVRU321h9AGkLRQL5n9Xgt+rluWAXLVtyxM9aPavmvu1n6/G9stXwQdnUVrZIUs7EzhIhWBe5R/A==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
+
+  '@rspack/binding-linux-x64-musl@1.1.4':
+    resolution: {integrity: sha512-1XG795a+M4vE7JLyeDa1oktr4WU/I5IQ9d8Vk3PVtF59IxnKpjOb3vdGhXP7Ke2zWP6C2YQzWotez6AbO3uWeA==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@rspack/binding-win32-arm64-msvc@1.1.4':
+    resolution: {integrity: sha512-1hXOgHxnrBmjBNUluy9MbFMQi4lnAS199JD5UHRc2mx5i+D8cjAiBsWHzIcK4xzsxu2IYgVGsJcdIA8/zV/PVQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rspack/binding-win32-ia32-msvc@1.1.4':
+    resolution: {integrity: sha512-Jfq6gF5QKOYZsgDYRx+fWipDHmtHxq6jniws1WAE8F5w1qIt/dAHzW3a6+3VwCih9lQEEH3Rimy/ECB0oergng==}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rspack/binding-win32-x64-msvc@1.1.4':
+    resolution: {integrity: sha512-d9HUGVfNFhB+r32kDPkzHeMmgwemTFsDymnWJUgUrojzTJ326JrDmEXVeCnAHfwBSC9w4/mp4H+4iGhIdKSo9w==}
+    cpu: [x64]
+    os: [win32]
 
   '@rspack/binding@1.1.4':
     resolution: {integrity: sha512-XdR/4DACpLqNjxEw+ikg5FN2dQbOAxj7fDlndNio0l+m8ThPiIsetkJ2FNSlxt/K4SVnIrwAkhE5kabVNKR4EA==}
@@ -892,11 +925,6 @@ packages:
     resolution: {integrity: sha512-xsc9Xv0xlVfwp2o7sQ+GCQ1PgbkdcpWdTzrwXxO3xDMTAywVS3oXVOcOHuRjAPkS4P9b+yc/qNF15460v+jp4Q==}
     peerDependencies:
       acorn: '>=8.9.0'
-
-  acorn@8.13.0:
-    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
@@ -1315,8 +1343,8 @@ packages:
       jiti:
         optional: true
 
-  esm-env@1.0.0:
-    resolution: {integrity: sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==}
+  esm-env@1.2.1:
+    resolution: {integrity: sha512-U9JedYYjCnadUlXk7e1Kr+aENQhtUaoaV9+gZm1T8LC/YBAPJx3NSPIAurFOC0U5vrdSevnUJS2/wUVxGwPhng==}
 
   espree@10.2.0:
     resolution: {integrity: sha512-upbkBJbckcCNBDBDXEbuhjbP68n+scUd3k/U2EkyM9nw+I/jPiL4cLF/Al06CF96wRltFda16sxDFrxsI1v0/g==}
@@ -2034,8 +2062,8 @@ packages:
       typescript:
         optional: true
 
-  svelte@5.2.7:
-    resolution: {integrity: sha512-cEhPGuLHiH2+Z8B1FwQgiZJgA39uUmJR4516TKrM5zrp0/cuwJkfhUfcTxhAkznanAF5fXUKzvYR4o+Ksx3ZCQ==}
+  svelte@5.2.11:
+    resolution: {integrity: sha512-rAVKne02inlyw//aD1QXuUbxDBNnyW6sagS7JfxzUbGVuJnHrf2WfQdJDYlBq8mOz8NBGQAZdD6KEITd0NUDtA==}
     engines: {node: '>=18'}
 
   synckit@0.6.2:
@@ -2285,7 +2313,7 @@ snapshots:
 
   '@chevrotain/utils@11.0.3': {}
 
-  '@coderwyd/eslint-config@3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7))(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)(typescript@5.7.2)':
+  '@coderwyd/eslint-config@3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11))(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.0(eslint@9.15.0(jiti@1.21.6))
@@ -2304,7 +2332,7 @@ snapshots:
       eslint-plugin-jsonc: 2.16.0(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-n: 17.11.1(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-no-only-tests: 3.3.0
-      eslint-plugin-perfectionist: 3.9.1(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.15.0(jiti@1.21.6)))
+      eslint-plugin-perfectionist: 3.9.1(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.15.0(jiti@1.21.6)))
       eslint-plugin-prettier: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@1.21.6)))(eslint@9.15.0(jiti@1.21.6))(prettier@3.3.3)
       eslint-plugin-regexp: 2.6.0(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-unicorn: 56.0.0(eslint@9.15.0(jiti@1.21.6))
@@ -2321,7 +2349,7 @@ snapshots:
       vue-eslint-parser: 9.4.3(eslint@9.15.0(jiti@1.21.6))
       yargs: 17.7.2
     optionalDependencies:
-      eslint-plugin-svelte: 2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)
+      eslint-plugin-svelte: 2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)
     transitivePeerDependencies:
       - '@types/eslint'
       - '@typescript-eslint/utils'
@@ -2676,11 +2704,11 @@ snapshots:
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rsbuild/plugin-svelte@1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.7)(typescript@5.7.2)':
+  '@rsbuild/plugin-svelte@1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)':
     dependencies:
       '@rsbuild/core': 1.1.6
-      svelte-loader: 3.2.4(svelte@5.2.7)
-      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.7)(typescript@5.7.2)
+      svelte-loader: 3.2.4(svelte@5.2.11)
+      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -2700,14 +2728,38 @@ snapshots:
   '@rspack/binding-darwin-x64@1.1.4':
     optional: true
 
+  '@rspack/binding-linux-arm64-gnu@1.1.4':
+    optional: true
+
+  '@rspack/binding-linux-arm64-musl@1.1.4':
+    optional: true
+
   '@rspack/binding-linux-x64-gnu@1.1.4':
+    optional: true
+
+  '@rspack/binding-linux-x64-musl@1.1.4':
+    optional: true
+
+  '@rspack/binding-win32-arm64-msvc@1.1.4':
+    optional: true
+
+  '@rspack/binding-win32-ia32-msvc@1.1.4':
+    optional: true
+
+  '@rspack/binding-win32-x64-msvc@1.1.4':
     optional: true
 
   '@rspack/binding@1.1.4':
     optionalDependencies:
       '@rspack/binding-darwin-arm64': 1.1.4
       '@rspack/binding-darwin-x64': 1.1.4
+      '@rspack/binding-linux-arm64-gnu': 1.1.4
+      '@rspack/binding-linux-arm64-musl': 1.1.4
       '@rspack/binding-linux-x64-gnu': 1.1.4
+      '@rspack/binding-linux-x64-musl': 1.1.4
+      '@rspack/binding-win32-arm64-msvc': 1.1.4
+      '@rspack/binding-win32-ia32-msvc': 1.1.4
+      '@rspack/binding-win32-x64-msvc': 1.1.4
 
   '@rspack/core@1.1.4(@swc/helpers@0.5.15)':
     dependencies:
@@ -3039,8 +3091,6 @@ snapshots:
   acorn-typescript@1.4.13(acorn@8.14.0):
     dependencies:
       acorn: 8.14.0
-
-  acorn@8.13.0: {}
 
   acorn@8.14.0: {}
 
@@ -3405,7 +3455,7 @@ snapshots:
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
-  eslint-plugin-perfectionist@3.9.1(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.15.0(jiti@1.21.6))):
+  eslint-plugin-perfectionist@3.9.1(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.15.0(jiti@1.21.6))):
     dependencies:
       '@typescript-eslint/types': 8.11.0
       '@typescript-eslint/utils': 8.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
@@ -3413,7 +3463,7 @@ snapshots:
       minimatch: 9.0.5
       natural-compare-lite: 1.4.0
     optionalDependencies:
-      svelte: 5.2.7
+      svelte: 5.2.11
       vue-eslint-parser: 9.4.3(eslint@9.15.0(jiti@1.21.6))
     transitivePeerDependencies:
       - supports-color
@@ -3439,7 +3489,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.7):
+  eslint-plugin-svelte@2.46.0(eslint@9.15.0(jiti@1.21.6))(svelte@5.2.11):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.15.0(jiti@1.21.6))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3452,9 +3502,9 @@ snapshots:
       postcss-safe-parser: 6.0.0(postcss@8.4.47)
       postcss-selector-parser: 6.1.2
       semver: 7.6.3
-      svelte-eslint-parser: 0.43.0(svelte@5.2.7)
+      svelte-eslint-parser: 0.43.0(svelte@5.2.11)
     optionalDependencies:
-      svelte: 5.2.7
+      svelte: 5.2.11
     transitivePeerDependencies:
       - ts-node
 
@@ -3559,7 +3609,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  esm-env@1.0.0: {}
+  esm-env@1.2.1: {}
 
   espree@10.2.0:
     dependencies:
@@ -3780,7 +3830,7 @@ snapshots:
 
   jsonc-eslint-parser@2.4.0:
     dependencies:
-      acorn: 8.13.0
+      acorn: 8.14.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       semver: 7.6.3
@@ -4001,10 +4051,10 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.2.7):
+  prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.2.11):
     dependencies:
       prettier: 3.3.3
-      svelte: 5.2.7
+      svelte: 5.2.11
 
   prettier@3.3.3: {}
 
@@ -4166,7 +4216,7 @@ snapshots:
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-eslint-parser@0.43.0(svelte@5.2.7):
+  svelte-eslint-parser@0.43.0(svelte@5.2.11):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -4174,28 +4224,28 @@ snapshots:
       postcss: 8.4.47
       postcss-scss: 4.0.9(postcss@8.4.47)
     optionalDependencies:
-      svelte: 5.2.7
+      svelte: 5.2.11
 
-  svelte-hmr@0.14.12(svelte@5.2.7):
+  svelte-hmr@0.14.12(svelte@5.2.11):
     dependencies:
-      svelte: 5.2.7
+      svelte: 5.2.11
 
-  svelte-loader@3.2.4(svelte@5.2.7):
+  svelte-loader@3.2.4(svelte@5.2.11):
     dependencies:
       loader-utils: 2.0.4
-      svelte: 5.2.7
+      svelte: 5.2.11
       svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@5.2.7)
+      svelte-hmr: 0.14.12(svelte@5.2.11)
 
-  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.7)(typescript@5.7.2):
+  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2):
     dependencies:
-      svelte: 5.2.7
+      svelte: 5.2.11
     optionalDependencies:
       postcss: 8.4.47
       postcss-load-config: 3.1.4(postcss@8.4.47)
       typescript: 5.7.2
 
-  svelte@5.2.7:
+  svelte@5.2.11:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -4204,7 +4254,7 @@ snapshots:
       acorn-typescript: 1.4.13(acorn@8.14.0)
       aria-query: 5.3.2
       axobject-query: 4.1.0
-      esm-env: 1.0.0
+      esm-env: 1.2.1
       esrap: 1.2.2
       is-reference: 3.0.3
       locate-character: 3.0.0
