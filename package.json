@@ -19,7 +19,7 @@
     "@rsbuild/core": "^1.1.6",
     "@rsbuild/plugin-svelte": "^1.0.5",
     "@unocss/postcss": "^0.64.1",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-plugin-svelte": "^2.46.1",
     "prettier-plugin-svelte": "^3.3.2",
     "typescript": "^5.7.2",
