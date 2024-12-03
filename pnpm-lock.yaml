@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       svelte:
-        specifier: ^5.2.11
-        version: 5.2.11
+        specifier: ^5.2.12
+        version: 5.3.1
     devDependencies:
       '@coderwyd/eslint-config':
         specifier: ^3.1.2
-        version: 3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11))(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)
+        version: 3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1))(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)(typescript@5.7.2)
       '@rsbuild/core':
         specifier: ^1.1.6
         version: 1.1.6
       '@rsbuild/plugin-svelte':
         specifier: ^1.0.5
-        version: 1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)
+        version: 1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.3.1)(typescript@5.7.2)
       '@unocss/postcss':
         specifier: ^0.64.1
         version: 0.64.1(postcss@8.4.47)
@@ -29,10 +29,10 @@ importers:
         version: 9.16.0(jiti@1.21.6)
       eslint-plugin-svelte:
         specifier: ^2.46.1
-        version: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)
+        version: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)
       prettier-plugin-svelte:
         specifier: ^3.3.2
-        version: 3.3.2(prettier@3.3.3)(svelte@5.2.11)
+        version: 3.3.2(prettier@3.3.3)(svelte@5.3.1)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -1362,8 +1362,8 @@ packages:
     resolution: {integrity: sha512-ca9pw9fomFcKPvFLXhBKUK90ZvGibiGOvRJNbjljY7s7uq/5YO4BOzcYtJqExdx99rF6aAcnRxHmcUHcz6sQsg==}
     engines: {node: '>=0.10'}
 
-  esrap@1.2.2:
-    resolution: {integrity: sha512-F2pSJklxx1BlQIQgooczXCPHmcWpn6EsP5oo73LQfonG9fIlIENQ8vMmfGXeojP9MrkzUNAfyU5vdFlR9shHAw==}
+  esrap@1.2.3:
+    resolution: {integrity: sha512-ZlQmCCK+n7SGoqo7DnfKaP1sJZa49P01/dXzmjCASSo04p72w8EksT2NMK8CEX8DhKsfJXANioIw8VyHNsBfvQ==}
 
   esrecurse@4.3.0:
     resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==}
@@ -2062,8 +2062,8 @@ packages:
       typescript:
         optional: true
 
-  svelte@5.2.11:
-    resolution: {integrity: sha512-rAVKne02inlyw//aD1QXuUbxDBNnyW6sagS7JfxzUbGVuJnHrf2WfQdJDYlBq8mOz8NBGQAZdD6KEITd0NUDtA==}
+  svelte@5.3.1:
+    resolution: {integrity: sha512-Y6PXppQhIZZ0HLZKj6UMV/VZPJbHiK98K8A5M7mJ+PGrz4erUmuDRUa8l7aw4La++Vl51YWzLUuuB0FZ7JPfnw==}
     engines: {node: '>=18'}
 
   synckit@0.6.2:
@@ -2313,7 +2313,7 @@ snapshots:
 
   '@chevrotain/utils@11.0.3': {}
 
-  '@coderwyd/eslint-config@3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11))(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)':
+  '@coderwyd/eslint-config@3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1))(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)(typescript@5.7.2)':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.0(eslint@9.16.0(jiti@1.21.6))
@@ -2332,7 +2332,7 @@ snapshots:
       eslint-plugin-jsonc: 2.16.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-n: 17.11.1(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-no-only-tests: 3.3.0
-      eslint-plugin-perfectionist: 3.9.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.16.0(jiti@1.21.6)))
+      eslint-plugin-perfectionist: 3.9.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.16.0(jiti@1.21.6)))
       eslint-plugin-prettier: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.16.0(jiti@1.21.6)))(eslint@9.16.0(jiti@1.21.6))(prettier@3.3.3)
       eslint-plugin-regexp: 2.6.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-unicorn: 56.0.0(eslint@9.16.0(jiti@1.21.6))
@@ -2349,7 +2349,7 @@ snapshots:
       vue-eslint-parser: 9.4.3(eslint@9.16.0(jiti@1.21.6))
       yargs: 17.7.2
     optionalDependencies:
-      eslint-plugin-svelte: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)
+      eslint-plugin-svelte: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)
     transitivePeerDependencies:
       - '@types/eslint'
       - '@typescript-eslint/utils'
@@ -2704,11 +2704,11 @@ snapshots:
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rsbuild/plugin-svelte@1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)':
+  '@rsbuild/plugin-svelte@1.0.5(@rsbuild/core@1.1.6)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.3.1)(typescript@5.7.2)':
     dependencies:
       '@rsbuild/core': 1.1.6
-      svelte-loader: 3.2.4(svelte@5.2.11)
-      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2)
+      svelte-loader: 3.2.4(svelte@5.3.1)
+      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.3.1)(typescript@5.7.2)
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -3455,7 +3455,7 @@ snapshots:
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
-  eslint-plugin-perfectionist@3.9.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.16.0(jiti@1.21.6))):
+  eslint-plugin-perfectionist@3.9.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1)(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.16.0(jiti@1.21.6))):
     dependencies:
       '@typescript-eslint/types': 8.11.0
       '@typescript-eslint/utils': 8.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
@@ -3463,7 +3463,7 @@ snapshots:
       minimatch: 9.0.5
       natural-compare-lite: 1.4.0
     optionalDependencies:
-      svelte: 5.2.11
+      svelte: 5.3.1
       vue-eslint-parser: 9.4.3(eslint@9.16.0(jiti@1.21.6))
     transitivePeerDependencies:
       - supports-color
@@ -3489,7 +3489,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.2.11):
+  eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.3.1):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.16.0(jiti@1.21.6))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3502,9 +3502,9 @@ snapshots:
       postcss-safe-parser: 6.0.0(postcss@8.4.47)
       postcss-selector-parser: 6.1.2
       semver: 7.6.3
-      svelte-eslint-parser: 0.43.0(svelte@5.2.11)
+      svelte-eslint-parser: 0.43.0(svelte@5.3.1)
     optionalDependencies:
-      svelte: 5.2.11
+      svelte: 5.3.1
     transitivePeerDependencies:
       - ts-node
 
@@ -3633,7 +3633,7 @@ snapshots:
     dependencies:
       estraverse: 5.3.0
 
-  esrap@1.2.2:
+  esrap@1.2.3:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
       '@types/estree': 1.0.6
@@ -4051,10 +4051,10 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.2.11):
+  prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.3.1):
     dependencies:
       prettier: 3.3.3
-      svelte: 5.2.11
+      svelte: 5.3.1
 
   prettier@3.3.3: {}
 
@@ -4216,7 +4216,7 @@ snapshots:
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-eslint-parser@0.43.0(svelte@5.2.11):
+  svelte-eslint-parser@0.43.0(svelte@5.3.1):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -4224,28 +4224,28 @@ snapshots:
       postcss: 8.4.47
       postcss-scss: 4.0.9(postcss@8.4.47)
     optionalDependencies:
-      svelte: 5.2.11
+      svelte: 5.3.1
 
-  svelte-hmr@0.14.12(svelte@5.2.11):
+  svelte-hmr@0.14.12(svelte@5.3.1):
     dependencies:
-      svelte: 5.2.11
+      svelte: 5.3.1
 
-  svelte-loader@3.2.4(svelte@5.2.11):
+  svelte-loader@3.2.4(svelte@5.3.1):
     dependencies:
       loader-utils: 2.0.4
-      svelte: 5.2.11
+      svelte: 5.3.1
       svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@5.2.11)
+      svelte-hmr: 0.14.12(svelte@5.3.1)
 
-  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.2.11)(typescript@5.7.2):
+  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.3.1)(typescript@5.7.2):
     dependencies:
-      svelte: 5.2.11
+      svelte: 5.3.1
     optionalDependencies:
       postcss: 8.4.47
       postcss-load-config: 3.1.4(postcss@8.4.47)
       typescript: 5.7.2
 
-  svelte@5.2.11:
+  svelte@5.3.1:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -4255,7 +4255,7 @@ snapshots:
       aria-query: 5.3.2
       axobject-query: 4.1.0
       esm-env: 1.2.1
-      esrap: 1.2.2
+      esrap: 1.2.3
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.12
