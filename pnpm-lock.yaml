@@ -16,11 +16,11 @@ importers:
         specifier: ^3.1.2
         version: 3.1.2(@typescript-eslint/utils@8.11.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint-plugin-svelte@2.46.1(eslint@9.17.0(jiti@2.4.2))(svelte@5.16.0))(eslint@9.17.0(jiti@2.4.2))(svelte@5.16.0)(typescript@5.7.2)
       '@rsbuild/core':
-        specifier: ^1.1.12
-        version: 1.1.12
+        specifier: ^1.1.13
+        version: 1.1.13
       '@rsbuild/plugin-svelte':
         specifier: ^1.0.7
-        version: 1.0.7(@rsbuild/core@1.1.12)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.16.0)(typescript@5.7.2)
+        version: 1.0.7(@rsbuild/core@1.1.13)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.16.0)(typescript@5.7.2)
       '@unocss/postcss':
         specifier: ^0.65.2
         version: 0.65.2(postcss@8.4.47)
@@ -644,8 +644,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.1.12':
-    resolution: {integrity: sha512-9f+E47fMf51Cg4W7CF2Q4f7BRSslVV/+TRvs5ScclYanqXEFtAGV9nuecJEL6Qc9jJV61lES0esPTFdPPnWPGw==}
+  '@rsbuild/core@1.1.13':
+    resolution: {integrity: sha512-XBL2hrin8731W6iTGGL+x3cv07n4vm2D7u6XHRwtQkRfySzAqGx7ThlQLdNX/dJwfsoQrYQuWl/qzaljjXtGtg==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -2718,16 +2718,16 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.24.0':
     optional: true
 
-  '@rsbuild/core@1.1.12':
+  '@rsbuild/core@1.1.13':
     dependencies:
       '@rspack/core': 1.1.8(@swc/helpers@0.5.15)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rsbuild/plugin-svelte@1.0.7(@rsbuild/core@1.1.12)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.16.0)(typescript@5.7.2)':
+  '@rsbuild/plugin-svelte@1.0.7(@rsbuild/core@1.1.13)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.16.0)(typescript@5.7.2)':
     dependencies:
-      '@rsbuild/core': 1.1.12
+      '@rsbuild/core': 1.1.13
       svelte-loader: 3.2.4(svelte@5.16.0)
       svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.16.0)(typescript@5.7.2)
     transitivePeerDependencies:
