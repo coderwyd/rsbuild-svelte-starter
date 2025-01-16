@@ -12,7 +12,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "svelte": "^5.17.3"
+    "svelte": "^5.17.5"
   },
   "devDependencies": {
     "@coderwyd/eslint-config": "^3.1.2",
