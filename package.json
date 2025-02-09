@@ -15,7 +15,7 @@
     "svelte": "^5.19.9"
   },
   "devDependencies": {
-    "@coderwyd/eslint-config": "^3.1.2",
+    "@coderwyd/eslint-config": "^4.0.0",
     "@rsbuild/core": "^1.2.4",
     "@rsbuild/plugin-svelte": "^1.0.7",
     "@unocss/postcss": "^65.4.3",
