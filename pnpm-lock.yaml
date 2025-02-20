@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       svelte:
-        specifier: ^5.20.1
-        version: 5.20.1
+        specifier: ^5.20.2
+        version: 5.20.2
     devDependencies:
       '@coderwyd/eslint-config':
         specifier: ^3.6.0
-        version: 3.6.0(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.1))(eslint@9.20.1(jiti@2.4.2))(svelte-eslint-parser@0.43.0(svelte@5.20.1))(typescript@5.7.3)
+        version: 3.6.0(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.2))(eslint@9.20.1(jiti@2.4.2))(svelte-eslint-parser@0.43.0(svelte@5.20.2))(typescript@5.7.3)
       '@rsbuild/core':
         specifier: ^1.2.8
         version: 1.2.8
       '@rsbuild/plugin-svelte':
         specifier: ^1.0.7
-        version: 1.0.7(@rsbuild/core@1.2.8)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.1)(typescript@5.7.3)
+        version: 1.0.7(@rsbuild/core@1.2.8)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)
       '@unocss/postcss':
         specifier: ^65.5.0
         version: 65.5.0(postcss@8.4.47)
@@ -29,10 +29,10 @@ importers:
         version: 9.20.1(jiti@2.4.2)
       eslint-plugin-svelte:
         specifier: ^2.46.1
-        version: 2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.1)
+        version: 2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.2)
       prettier-plugin-svelte:
         specifier: ^3.3.3
-        version: 3.3.3(prettier@3.5.1)(svelte@5.20.1)
+        version: 3.3.3(prettier@3.5.1)(svelte@5.20.2)
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -1888,8 +1888,8 @@ packages:
       typescript:
         optional: true
 
-  svelte@5.20.1:
-    resolution: {integrity: sha512-aCARru2WTdzJl55Ws8SK27+kvQwd8tijl4kY7NoDUXUHtTHhxMa8Lf6QNZKmU7cuPu3jjFloDO1j5HgYJNIIWg==}
+  svelte@5.20.2:
+    resolution: {integrity: sha512-aYXJreNUiyTob0QOzRZeBXZMGeFZDch6SrSRV8QTncZb6zj0O3BEdUzPpojuHQ1pTvk+KX7I6rZCXPUf8pTPxA==}
     engines: {node: '>=18'}
 
   synckit@0.6.2:
@@ -2129,7 +2129,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@coderwyd/eslint-config@3.6.0(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.1))(eslint@9.20.1(jiti@2.4.2))(svelte-eslint-parser@0.43.0(svelte@5.20.1))(typescript@5.7.3)':
+  '@coderwyd/eslint-config@3.6.0(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.2))(eslint@9.20.1(jiti@2.4.2))(svelte-eslint-parser@0.43.0(svelte@5.20.2))(typescript@5.7.3)':
     dependencies:
       '@antfu/install-pkg': 1.0.0
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.20.1(jiti@2.4.2))
@@ -2163,8 +2163,8 @@ snapshots:
       vue-eslint-parser: 9.4.3(eslint@9.20.1(jiti@2.4.2))
       yargs: 17.7.2
     optionalDependencies:
-      eslint-plugin-svelte: 2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.1)
-      svelte-eslint-parser: 0.43.0(svelte@5.20.1)
+      eslint-plugin-svelte: 2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.2)
+      svelte-eslint-parser: 0.43.0(svelte@5.20.2)
     transitivePeerDependencies:
       - '@eslint/json'
       - '@typescript-eslint/utils'
@@ -2458,11 +2458,11 @@ snapshots:
     transitivePeerDependencies:
       - '@rspack/tracing'
 
-  '@rsbuild/plugin-svelte@1.0.7(@rsbuild/core@1.2.8)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.1)(typescript@5.7.3)':
+  '@rsbuild/plugin-svelte@1.0.7(@rsbuild/core@1.2.8)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)':
     dependencies:
       '@rsbuild/core': 1.2.8
-      svelte-loader: 3.2.4(svelte@5.20.1)
-      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.1)(typescript@5.7.3)
+      svelte-loader: 3.2.4(svelte@5.20.2)
+      svelte-preprocess: 6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -3230,7 +3230,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.1):
+  eslint-plugin-svelte@2.46.1(eslint@9.20.1(jiti@2.4.2))(svelte@5.20.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.20.1(jiti@2.4.2))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3243,9 +3243,9 @@ snapshots:
       postcss-safe-parser: 6.0.0(postcss@8.4.47)
       postcss-selector-parser: 6.1.2
       semver: 7.6.3
-      svelte-eslint-parser: 0.43.0(svelte@5.20.1)
+      svelte-eslint-parser: 0.43.0(svelte@5.20.2)
     optionalDependencies:
-      svelte: 5.20.1
+      svelte: 5.20.2
     transitivePeerDependencies:
       - ts-node
 
@@ -3763,10 +3763,10 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.3.3(prettier@3.5.1)(svelte@5.20.1):
+  prettier-plugin-svelte@3.3.3(prettier@3.5.1)(svelte@5.20.2):
     dependencies:
       prettier: 3.5.1
-      svelte: 5.20.1
+      svelte: 5.20.2
 
   prettier@3.5.1: {}
 
@@ -3928,7 +3928,7 @@ snapshots:
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-eslint-parser@0.43.0(svelte@5.20.1):
+  svelte-eslint-parser@0.43.0(svelte@5.20.2):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -3936,28 +3936,28 @@ snapshots:
       postcss: 8.4.47
       postcss-scss: 4.0.9(postcss@8.4.47)
     optionalDependencies:
-      svelte: 5.20.1
+      svelte: 5.20.2
 
-  svelte-hmr@0.14.12(svelte@5.20.1):
+  svelte-hmr@0.14.12(svelte@5.20.2):
     dependencies:
-      svelte: 5.20.1
+      svelte: 5.20.2
 
-  svelte-loader@3.2.4(svelte@5.20.1):
+  svelte-loader@3.2.4(svelte@5.20.2):
     dependencies:
       loader-utils: 2.0.4
-      svelte: 5.20.1
+      svelte: 5.20.2
       svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@5.20.1)
+      svelte-hmr: 0.14.12(svelte@5.20.2)
 
-  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.1)(typescript@5.7.3):
+  svelte-preprocess@6.0.3(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3):
     dependencies:
-      svelte: 5.20.1
+      svelte: 5.20.2
     optionalDependencies:
       postcss: 8.4.47
       postcss-load-config: 3.1.4(postcss@8.4.47)
       typescript: 5.7.3
 
-  svelte@5.20.1:
+  svelte@5.20.2:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
