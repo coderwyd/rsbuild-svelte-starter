@@ -19,8 +19,8 @@ importers:
         specifier: ^1.2.11
         version: 1.2.11
       '@rsbuild/plugin-svelte':
-        specifier: ^1.0.7
-        version: 1.0.7(@rsbuild/core@1.2.11)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)
+        specifier: ^1.0.8
+        version: 1.0.8(@rsbuild/core@1.2.11)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)
       '@unocss/postcss':
         specifier: ^65.5.0
         version: 65.5.0(postcss@8.4.47)
@@ -496,8 +496,8 @@ packages:
     engines: {node: '>=16.7.0'}
     hasBin: true
 
-  '@rsbuild/plugin-svelte@1.0.7':
-    resolution: {integrity: sha512-ZNnZQY3+6bkQ4iBC25mhgbLQriFozN+bgyjuTOI70wuLZXML7SdQkNko6VIhvssxq7xtnGafRCATsNVoqYIN+g==}
+  '@rsbuild/plugin-svelte@1.0.8':
+    resolution: {integrity: sha512-tEp1GpcOTyve7xc5hJSs4Vki2T/oXqgoAhuETKjz1ckj+GRtz7m5Wo3OTCHQsu8AfObCFIp+DFdfQTtd06iGTQ==}
     peerDependencies:
       '@rsbuild/core': 1.x
 
@@ -2458,7 +2458,7 @@ snapshots:
     transitivePeerDependencies:
       - '@rspack/tracing'
 
-  '@rsbuild/plugin-svelte@1.0.7(@rsbuild/core@1.2.11)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)':
+  '@rsbuild/plugin-svelte@1.0.8(@rsbuild/core@1.2.11)(postcss-load-config@3.1.4(postcss@8.4.47))(postcss@8.4.47)(svelte@5.20.2)(typescript@5.7.3)':
     dependencies:
       '@rsbuild/core': 1.2.11
       svelte-loader: 3.2.4(svelte@5.20.2)
