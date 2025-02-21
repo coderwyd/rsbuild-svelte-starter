@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@coderwyd/eslint-config": "^3.6.0",
-    "@rsbuild/core": "^1.2.8",
+    "@rsbuild/core": "^1.2.11",
     "@rsbuild/plugin-svelte": "^1.0.7",
     "@unocss/postcss": "^65.5.0",
     "eslint": "^9.20.1",
