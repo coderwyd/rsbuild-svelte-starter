@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       svelte:
-        specifier: ^5.27.3
+        specifier: ^5.28.1
         version: 5.28.1
     devDependencies:
       '@coderwyd/eslint-config':
